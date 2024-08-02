@@ -74,8 +74,8 @@ namespace ExamApp.Migrations
                 columns: new[] { "Kod", "Ad", "MuellimAd", "MuellimSoyad", "Sinif" },
                 values: new object[,]
                 {
-                    { "FIZ", "Fizika", "Fizika Muellimi", "Fizika Muellimi", null },
-                    { "RIY", "Riyaziyyat", "Riyaziyyat Muellimi", "Riyaziyyat Muellimi", null }
+                    { "FIZ", "Fizika", "Fizika Muellimi", "Fizika Muellimi", 9m },
+                    { "RIY", "Riyaziyyat", "Riyaziyyat Muellimi", "Riyaziyyat Muellimi", 9m }
                 });
 
             migrationBuilder.InsertData(
